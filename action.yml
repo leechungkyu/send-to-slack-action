@@ -1,0 +1,12 @@
+name: "send to slack"
+description: ""
+author: "leechungkyu"
+
+inputs:
+  slack_url:
+    description: "slack incoming url"
+    required: true
+
+runs:
+  using: "docker"
+  image: "Dockerfile"
