@@ -1,6 +1,9 @@
 name: "send to slack"
 description: ""
 author: "leechungkyu"
+branding:
+  icon: message-square
+  color: yellow
 
 inputs:
   slack_url:
