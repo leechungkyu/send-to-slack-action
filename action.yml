@@ -1,5 +1,5 @@
 name: "send to slack"
-description: ""
+description: "Send message to slack when a push occurs in the master branch"
 author: "leechungkyu"
 branding:
   icon: message-square
