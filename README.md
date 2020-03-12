@@ -8,6 +8,7 @@ Make sure that these parameters are required as [Github Secrets](https://help.gi
 | `SLACK_URL` | `string` | [Incoming Webhooks for Slack](https://api.slack.com/messaging/webhooks) |
 
 ## Usage
+
 ```yaml
 name: When a push occurs in the master branch, a slack alarm is generated.
 on: [push]
